@@ -1,31 +1,42 @@
+@font-face {
+  font-family: 'verb';
+  src:url(verbcondregular-italic-webfont.woff) format('woff');
+}
+
 body {
-  color: #383A57;
+  color: #494D6D;
   background-color: #190035;
+  margin-top: 150px;
+
 }
 
 a:link {
-  color: #FFCE6C;
+  color: #4D56AA;
   text-decoration: none;
 }
 
 a:visited {
-  color: #FFCE6C;
+  color: #4D56AA;
+}
+
+a:hover {
+  color: #930F28;opacity: 0.4;
 }
 
 h1 {
   text-align: center;
   font-size: 60px;
   font-style: italic;
-  font-family: "Helvetica", "Arial", sans-serif;
+  font-family: "verb", "Arial", sans-serif;
 }
 
 h2 {
   text-align: center;
   font-size: 35px;
-  font-family: "Helvetica", "Arial", sans-serif;
+  font-family: "verb", "Arial", sans-serif;
 }
 p {
   text-align: center;
   font-size: 50px;
-  font-family: "Helvetica", "Arial", sans-serif;
+  font-family: "verb", "Arial", sans-serif;
 }
