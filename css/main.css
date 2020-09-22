@@ -1,0 +1,29 @@
+html {
+  font-size: 16px;
+}
+body {
+  background-color: tomato;
+  margin: 50px;
+}
+
+h1 {
+  font-size: 4rem
+}
+
+a:link, a:visited {
+  color: pink;
+}
+
+li:hover, a:active {
+  color: yellow;
+}
+
+li{
+  font-size: 2rem;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
