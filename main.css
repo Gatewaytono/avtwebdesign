@@ -1,0 +1,9 @@
+@font-face {
+  font-family: 'lgc';
+  src:url(Louis George Cafe.ttf) format('ttf');
+}
+
+h1 {
+  font-family: "lgc";
+
+}
