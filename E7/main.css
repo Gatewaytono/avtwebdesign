@@ -1,26 +1,28 @@
 ui li {
-  color: blue;
   list-style: none;
 }
 
 .intro {
-  color: orange;
+  color: grey;
   font-style: italic;
   font-size: 14px;
 }
 
-#size {
-  color: pink;
-}
 
 body {
   font-family: 'Epilogue', sans-serif;
+  margin: 20px;
 }
 
 a:link {
-    text-decoration: none;
+  text-decoration: none;
+  color: #51578f;
 }
 
 a:visited {
-  color: pink;
+  color: #51578f;
+}
+
+h3 {
+  font-size: 18px;
 }
