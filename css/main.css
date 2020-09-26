@@ -1,21 +1,23 @@
 html {
   font-size: 16px;
 }
-body {
-  background-color: tomato;
-  margin: 50px;
-}
 
 h1 {
-  font-size: 4rem
+  color: #f58eba;
+}
+
+body {
+  background-color: #fff4d4;
+  margin-top: 60px;
+  font-family: 'Epilogue', sans-serif;
 }
 
 a:link, a:visited {
   color: pink;
 }
 
-li:hover, a:active {
-  color: yellow;
+a:active {
+  color: #f58eba;
 }
 
 li{
@@ -23,7 +25,7 @@ li{
 }
 
 ul {
-  list-style-type: none;
+  list-style: none;
   margin: 0;
   padding: 0;
 }
