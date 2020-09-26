@@ -1,0 +1,26 @@
+ui li {
+  color: blue;
+  list-style: none;
+}
+
+.intro {
+  color: orange;
+  font-style: italic;
+  font-size: 14px;
+}
+
+#size {
+  color: pink;
+}
+
+body {
+  font-family: 'Epilogue', sans-serif;
+}
+
+a:link {
+    text-decoration: none;
+}
+
+a:visited {
+  color: pink;
+}
