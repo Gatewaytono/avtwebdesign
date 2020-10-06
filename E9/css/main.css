@@ -1,0 +1,26 @@
+* {
+  box-sizing: border-box;
+}
+body {
+  margin: 0;
+  background-color: pink;
+}
+main {
+
+}
+
+div {
+  width: 100px;
+  height: 100px;
+  background-color: red;
+  margin: 50px;
+  float: left;
+}
+
+.shape2 {
+  width: 50px;
+  height: 100px;
+  background-color: lightblue;
+  margin: 50px 150px;
+  float: left;
+}
