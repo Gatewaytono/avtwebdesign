@@ -4,6 +4,7 @@
 body {
   margin: 0;
   background-color: pink;
+  overflow-x: hidden;
 }
 main {
 
@@ -23,4 +24,10 @@ div {
   background-color: lightblue;
   margin: 50px 150px;
   float: left;
+}
+
+/*or we can rename them
+like <class="shape4">*/
+#p2 .shape2 {
+  width: 400px;
 }
