@@ -53,3 +53,29 @@ div {
   margin: 40px -10px 20px;
   float: left;
 }
+
+.shape6 {
+  width: 50px;
+  height: 80px;
+  background-color: hotpink;
+  opacity: 60%;
+  margin: -10px;
+  float: left;
+}
+.shape7 {
+  width: 50px;
+  height: 80px;
+  background-color: lightblue;
+  opacity: 60%;
+  margin: -10px;
+  float: left;
+}
+
+.shape8 {
+  width: 50px;
+  height: 80px;
+  background-color: #f7baff;
+  opacity: 60%;
+  margin: -10px;
+  float: left;
+}
