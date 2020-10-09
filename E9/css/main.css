@@ -26,8 +26,12 @@ div {
   float: left;
 }
 
-/*or we can rename them
-like <class="shape4">*/
+/*easy way: <class="shape4">*/
+/*not so hard way, its just more typing ig: #p2 .shape2 {
+  width: 400px;
+}*/
+/*u know what i already typed it in class so i might as well do it the other way since i love to struggle*/
+
 #p2 .shape2 {
   width: 400px;
 }
