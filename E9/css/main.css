@@ -10,7 +10,6 @@ body {
 main {
 
 }
-
 div {
   width: 100px;
   height: 100px;
@@ -18,7 +17,6 @@ div {
   margin: 50px;
   float: left;
 }
-
 .shape2 {
   width: 50px;
   height: 100px;
@@ -26,10 +24,8 @@ div {
   margin: 50px 150px;
   float: left;
 }
-
 /*easy way: <class="shape4">*/
 /*not so hard way, its just more typing ig: #p2 .shape2*/
-
 .shape3 {
   width: 40px;
   height: 40px;
@@ -37,7 +33,6 @@ div {
   margin: 30px 5px 30px;
   float: left;
 }
-
 .shape4 {
   width: 40px;
   height: 40px;
@@ -54,7 +49,6 @@ div {
   margin: 40px -10px 20px;
   float: left;
 }
-
 .shape6 {
   width: 50px;
   height: 80px;
@@ -71,7 +65,6 @@ div {
   margin: -10px;
   float: left;
 }
-
 .shape8 {
   width: 50px;
   height: 80px;
@@ -80,7 +73,6 @@ div {
   margin: -10px;
   float: left;
 }
-
 .shape9 {
   width: 100px;
   height: 100px;
@@ -88,7 +80,6 @@ div {
   margin: 0px;
   float: left;
 }
-
 .shape10 {
   width: 100px;
   height: 100px;
@@ -104,7 +95,6 @@ div {
   border-radius: 50%;
   float: left;
 }
-
 .shape12 {
   width: 100px;
   height: 100px;
