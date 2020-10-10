@@ -126,3 +126,36 @@ div {
   margin: 47px -100px 0;
   float: left;
 }
+/*i've made several attempts on doing triangles, i've decided that i've given up on doing triangles, am never doing triangles, please do not offer to teach me triangles, im done with them. circles and squares are my new best friends*/
+.shape15 {
+  width: 70px;
+  height: 70px;
+  margin: 0;
+  border-radius: 50%;
+  background-color: #fff09e;
+  float: left;
+   }
+  .shape16 {
+    width: 70px;
+    height: 70px;
+    margin: 0px -50px 0px;
+    border-radius: 50%;
+    background-color: #ffe86b;
+    float: left;
+  }
+  .shape17 {
+    width: 70px;
+    height: 70px;
+    margin: 0px -40px 0px;
+    border-radius: 50%;
+    background-color: #ffe247;
+    float: left;
+  }
+  .shape18 {
+    width: 70px;
+    height: 70px;
+    margin: 0px -30px 0px;
+    border-radius: 50%;
+    background-color: #ffdd26;
+    float: left;
+  }
