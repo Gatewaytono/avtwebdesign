@@ -79,3 +79,50 @@ div {
   margin: -10px;
   float: left;
 }
+
+.shape9 {
+  width: 100px;
+  height: 100px;
+  background-color: black;
+  margin: 0px;
+  float: left;
+}
+
+.shape10 {
+  width: 100px;
+  height: 100px;
+  background-color: white;
+  margin: 0px;
+  float: left;
+}
+.shape11 {
+  width: 100px;
+  height: 100px;
+  background-color: white;
+  margin: 0 -200px 0;
+  border-radius: 50%;
+  float: left;
+}
+
+.shape12 {
+  width: 100px;
+  height: 100px;
+  background-color: black;
+  margin: 0 -100px 0;
+  border-radius: 50%;
+  float: left;
+}
+.shape13 {
+  width: 10px;
+  height: 100px;
+  background-color: black;
+  margin: 0 -156px 0;
+  float: left;
+}
+.shape14 {
+  width: 100px;
+  height: 10px;
+  background-color: white;
+  margin: 47px -100px 0;
+  float: left;
+}
