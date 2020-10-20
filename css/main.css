@@ -56,3 +56,9 @@ main {
   width: 50%;
   float: left;
 }
+
+@media screen and (max-width: 1326px) {
+  .col {
+    width: 100%;
+  }
+}
