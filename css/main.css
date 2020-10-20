@@ -57,8 +57,9 @@ main {
   float: left;
 }
 
-@media screen and (max-width: 1326px) {
+@media screen and (max-width: 1327px) {
   .col {
     width: 100%;
+    margin-bottom: 50px;
   }
 }
