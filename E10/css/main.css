@@ -26,45 +26,24 @@ body {
 .black {
   background-color: #262626;
 }
-
+/*next*/
 .contain {
-  width: 1200px;
-  margin: auto;
+  width: 1000px;
   background-color: grey;
   display: flow-root;
-  padding: 10px;
+  margin: 0 auto;
 }
-.header {
+
+.header, .footer {
   width: 1000px;
   height: 100px;
   background-color: #ffd68f;
-  margin-top: 10px;
-  margin-bottom: 10px;
-}
-.bar {
-  width: 1000px;
-  height: 20px;
-  background-color: #ffd68f;
-  margin-top: 10px;
-  margin-bottom: 10px;
-}
-.col, .col2 {
-  width: 33%;
-  height: 500px;
-  background-color: #ffd68f;
-  margin: 10px, 10px, 10px;
+  margin: 50px, 0px, 25px;
   float: left;
-  display: flow-root;
 }
 
-.footer {
-  width: 1000px;
-  height: 100px;
-  background-color: #ffd68f;
-  margin-top: 10px;
-  display: flow-root;
-}
 
+/*next*/
 .hold {
   width: 1000px;
   height: 1000px;

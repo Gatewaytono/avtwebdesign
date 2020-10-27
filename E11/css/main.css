@@ -1,0 +1,20 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+}
+
+.holder{
+  position: relative;
+  width: 800px;
+  height: 800px;
+  margin: 200px;
+  background-color: red;
+}
+.head {
+  width: 500px;
+  height: 500px;
+  background-color: pink;
+}
