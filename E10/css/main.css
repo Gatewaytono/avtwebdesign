@@ -31,7 +31,7 @@ body {
   width: 1000px;
   background-color: grey;
   display: flow-root;
-  margin: 0 auto;
+  margin: auto;
 }
 
 .header, .footer {
