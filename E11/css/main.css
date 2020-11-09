@@ -10,7 +10,7 @@ body {
 .holder {
   width: 800px;
   height: 800px;
-  background-color: grey;
+  background-color: black;
   margin: auto;
   margin-top: 30px;
   position: relative;
@@ -153,7 +153,7 @@ body {
 .gownbottomnegative, .gownbottomnegative2 {
   width: 50px;
   height: 50px;
-  background-color: grey;
+  background-color: black;
   position: absolute;
   border-radius: 50%;
   left: 307px;
