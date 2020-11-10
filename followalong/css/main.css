@@ -1,0 +1,43 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background-color: pink;
+  margin: 0;
+}
+
+img {
+  width: 100%;
+}
+
+header {
+  background-color: orange;
+  padding: 50px;
+}
+
+main {
+  background-color: purple;
+}
+
+footer {
+  background-color: skyblue;
+}
+
+h1 {
+  margin: 0;
+}
+
+p {
+  margin: 0;
+}
+
+ul {
+  margin: 0;
+  list-style-type: none;
+  padding: 0;
+}
+
+li {
+  float: left;
+}
