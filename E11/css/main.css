@@ -14,7 +14,24 @@ body {
   margin: auto;
   margin-top: 30px;
   position: relative;
+  animation-name: float;
+  animation-duration: 1s;
+  animation-name: move;
+  animation-iteration-count: infinite;
 }
+
+@keyframes float {
+  from {
+    top: 0;
+    left: 0;
+  }
+
+  to {
+    top: 0;
+    left: calc(100vw - 100px);
+  }
+}
+
 
 .head {
   width: 390px;
