@@ -3,13 +3,17 @@
 }
 
 img {
-  max-width: 100%;
+  width: 100%;
   max-height: 100%;
 }
 
 body {
   background-color: #FAD1E3;
   margin: 0;
+}
+/*I FIGURED OUT HOW TO CHANGE INDIVIDUAL PAGE COLORS AFTER SPENDING THE RNTIRE DAY TRUING TO FIGURE IT OUT*/
+#musicpage {
+  background-color: #B4B3D9;
 }
 
 header {
@@ -156,11 +160,10 @@ a:visited {
 .holder {
   width: 1400px;
   background-color: purple;
-  margin-left: 170px;
+  margin-left: 180px;
 }
 
 .col {
-  background-color: red;
   width: 40%;
   height: 100%;
   float: left;
@@ -176,41 +179,100 @@ a:visited {
 }
 
 .couch {
-  margin-bottom: 200px;
+  margin-bottom: 185px;
 }
 
+.party {
+  margin-bottom: 171px;
+}
+
+.shirt {
+  margin-bottom: 120px;
+}
 
 
 
 .list1, .list2, .list3, .list4 {
   padding: 20px;
+  background-color: rgba(255, 255, 255, 0.6);
+  box-shadow: -5px 5px #727282;
 }
 
-.list1 {
-  background-color: white;
+.list1, .list2, .list3 {
+  margin-bottom: 40px;
 }
 
-.list2 {
-  background-color: pink;
-}
-
-.list3 {
-  background-color: orange;
-}
-
-.list4 {
-  background-color: grey;
-}
 
 
 .playbar {
   width: 518px;
   height: 30px;
-  background-color: blue;
+  background-color: #9696B6;
+  opacity: 67%;
   margin-top: 4px;
 }
 
+.playingbar{
+  width: 241px;
+  height: 30px;
+  background-color: #9696B6;
+  position: absolute;
+  top: 522px;
+  right: 488px;
+}
 
+
+.titlebox, .titlebox2, .titlebox3, .titlebox4 {
+  width: 100px;
+  height: 50px;
+  position: absolute;
+  }
+
+.titlebox {
+  width: 100px;
+  height: 50px;
+  position: absolute;
+  top: 680px;
+  left: 393px;
+}
+
+.titlebox2 {
+  width: 300px;
+  height: 50px;
+  position: absolute;
+  top: 1385px;
+  left: 316px;
+}
+.titlebox3 {
+  width: 300px;
+  height: 50px;
+  position: absolute;
+  top: 2123px;
+  left: 315px;
+}
+.titlebox4 {
+  width: 400px;
+  height: 50px;
+  position: absolute;
+  top: 2793px;
+  left: 252px;
+}
+
+.title1 {
+  color: white;
+  text-align: center;
+  margin: 0;
+  text-shadow: none;
+  font-size: 30px;
+  font-family: "Roboto Condensed", serif;
+}
+
+
+.screen2 {
+  background-color: orange;
+  width: 100%;
+  height: 100%;
+}
 footer {
   margin: 10px;
 }
