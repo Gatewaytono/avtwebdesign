@@ -46,7 +46,12 @@ h3 {
   color: white;
   text-align: center;
   margin: 0;
-  font-size: 45px;
+  font-size: 40px;
+  font-family: "PT Sans", serif;
+}
+
+h4 {
+  margin: 0;
   font-family: "PT Sans", serif;
 }
 
@@ -55,7 +60,7 @@ h3 {
   text-align: center;
   margin: 0;
   text-shadow: -2px 4px black;
-  font-size: 60px;
+  font-size: 50px;
   font-family: "PT Sans", serif;
 }
 
@@ -145,48 +150,66 @@ a:visited {
   width: 100%;
   background-color: none;
   position: relative;
-  top: 80px;
+  top: 85px;
 }
 
-.sub2 {
-  width: 400px;
-  height: 50px;
-  position: absolute;
-  top: 676px;
-  left: 332px;
-  text-align: center;
-}
-
-.col1 {
-  width: 540px;
-  /*margin-top: 100px;
-  margin-left: 280px;*/
-  position: absolute;
-  top: 180px;
-  left: 250px;
+.holder {
+  width: 1400px;
   background-color: purple;
+  margin-left: 170px;
 }
 
-.col2 {
-  width: 480px;
-  /*float: right;
-  margin-top: 100px;
-  margin-right: 265px;*/
-  position: absolute;
-  top: 210px;
-  right: 220px;
-  background-color: purple;
-  padding: 10px;
-  display: flow-root;
+.col {
+  background-color: red;
+  width: 40%;
+  height: 100%;
+  float: left;
+  margin-top: 110px;
+}
+
+.midcol {
+  width: 15px;
+  height: 100%;
+  float: left;
+  margin-top: 110px;
+  padding: 15px;
+}
+
+.couch {
+  margin-bottom: 200px;
 }
 
 
-@media screen and (max-width: 1327px) {
-  .col1 .col2 {
-    width: 100%;
-    margin-bottom: 50px;
-  }
+
+
+.list1, .list2, .list3, .list4 {
+  padding: 20px;
 }
+
+.list1 {
+  background-color: white;
+}
+
+.list2 {
+  background-color: pink;
+}
+
+.list3 {
+  background-color: orange;
+}
+
+.list4 {
+  background-color: grey;
+}
+
+
+.playbar {
+  width: 518px;
+  height: 30px;
+  background-color: blue;
+  margin-top: 4px;
+}
+
 
 footer {
   margin: 10px;
