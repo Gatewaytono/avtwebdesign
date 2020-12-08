@@ -25,6 +25,7 @@ header {
   position: fixed;
   top: 0;
   z-index: 5;
+  transition: .5s;
 }
 
 /*text stuf*/
@@ -103,6 +104,10 @@ a:visited {
   color: white;
 }
 
+a:hover {
+  color: black;
+}
+
 ul {
   list-style: none;
   color: white;
@@ -114,12 +119,8 @@ ul {
   letter-spacing: 3px;
 }
 
-ul:hover {
-  color: purple;
-}
-
-nav:hover {
-  background-color: white;
+#headerhov:hover {
+  color: black;
 }
 
 nav {
@@ -127,8 +128,17 @@ nav {
   top: 70px;
   margin: 0;
   background-color: black;
-  width:210px;
+  width: 210px;
   height: 100%;
+  transition: .5s;
+}
+
+nav:hover {
+  background-color: white;
+}
+
+header:hover {
+  background: white;
 }
 
 .HST, .LAU, .CSU {
@@ -141,9 +151,6 @@ nav {
   text-shadow: -2px 4px #FAD1E3;
 }
 
-.HST:hover {
-  color: blue;
-}
 
 .LAU {
   text-shadow: -2px 4px #ABD5F2;
