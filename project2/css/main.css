@@ -215,8 +215,12 @@ header:hover {
 }
 
 .holder {
+  margin-top: 150px;
+}
+
+
+.holder2 {
   width: 1400px;
-  background-color: purple;
   margin-left: 210px;
 }
 
