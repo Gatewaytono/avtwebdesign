@@ -42,6 +42,23 @@ h2 {
   font-family: "Roboto Condensed", serif;
 }
 
+h3 {
+  color: white;
+  text-align: center;
+  margin: 0;
+  font-size: 45px;
+  font-family: "PT Sans", serif;
+}
+
+.subtext {
+  color: white;
+  text-align: center;
+  margin: 0;
+  text-shadow: -2px 4px black;
+  font-size: 60px;
+  font-family: "PT Sans", serif;
+}
+
 p {
   font-family: "PT Sans", serif;
   color: black;
@@ -122,6 +139,53 @@ a:visited {
   padding: 10px;
   box-shadow: -5px 5px #474345;
 
+}
+
+.sub {
+  width: 100%;
+  background-color: none;
+  position: relative;
+  top: 80px;
+}
+
+.sub2 {
+  width: 400px;
+  height: 50px;
+  position: absolute;
+  top: 676px;
+  left: 332px;
+  text-align: center;
+}
+
+.col1 {
+  width: 540px;
+  /*margin-top: 100px;
+  margin-left: 280px;*/
+  position: absolute;
+  top: 180px;
+  left: 250px;
+  background-color: purple;
+}
+
+.col2 {
+  width: 480px;
+  /*float: right;
+  margin-top: 100px;
+  margin-right: 265px;*/
+  position: absolute;
+  top: 210px;
+  right: 220px;
+  background-color: purple;
+  padding: 10px;
+  display: flow-root;
+}
+
+
+@media screen and (max-width: 1327px) {
+  .col1 .col2 {
+    width: 100%;
+    margin-bottom: 50px;
+  }
 }
 
 footer {
