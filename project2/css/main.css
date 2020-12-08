@@ -329,10 +329,5 @@ header:hover {
 }
 
 footer {
-  margin: 10px;
-}
-
-
-@media query {
-
+  margin: 15px;
 }
